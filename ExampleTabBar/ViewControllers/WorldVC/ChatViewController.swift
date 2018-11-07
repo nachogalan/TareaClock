@@ -21,14 +21,17 @@ class ChatViewController: UIViewController {
         super.init(coder: aDecoder)
     }
     
+    @objc func empty (){
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.setLeftBarButton( (UIBarButtonItem(title:"Edit", style: .plain, target:self, action:"back")), animated: false)
-                let addBarButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: "")
+        self.navigationItem.setLeftBarButton( (UIBarButtonItem(title:"Edit", style: .plain, target:self, action:#selector(empty))), animated: false)
+        let addBarButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action:#selector(empty))
         navigationItem.setRightBarButton(addBarButton, animated: false)
         self.navigationItem.rightBarButtonItem?.tintColor = UIColor.orange
         self.navigationItem.leftBarButtonItem?.tintColor = UIColor.orange
-
         // Do any additional setup after loading the view.
     }
     
