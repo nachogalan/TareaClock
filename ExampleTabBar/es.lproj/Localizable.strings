@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  ExampleTabBar
+
+  Created by IGNACIO GALAN DE PINA on 31/10/18.
+  Copyright © 2018 IGNACIO GALAN DE PINA. All rights reserved.
+*/
+"title_world" = "World Clock";
+"title_alarm" = "Alarm";
+"title_bedtime" = "Bedtime";
+"title_stopwatch" = "Stopwatch";
+"title_timer" = "Timer";
+

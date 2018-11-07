@@ -8,20 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		4D1AA9172189B84B00FAB6FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1AA9162189B84B00FAB6FB /* AppDelegate.swift */; };
-		4D1AA9192189B84B00FAB6FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1AA9182189B84B00FAB6FB /* ViewController.swift */; };
-		4D1AA91C2189B84B00FAB6FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AA91A2189B84B00FAB6FB /* Main.storyboard */; };
 		4D1AA91E2189B84D00FAB6FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AA91D2189B84D00FAB6FB /* Assets.xcassets */; };
 		4D1AA9212189B84D00FAB6FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AA91F2189B84D00FAB6FB /* LaunchScreen.storyboard */; };
+		4D1AA92F2189BC8A00FAB6FB /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1AA92D2189BC8A00FAB6FB /* FavoritesViewController.swift */; };
+		4D1AA9302189BC8A00FAB6FB /* FavoritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AA92E2189BC8A00FAB6FB /* FavoritesViewController.xib */; };
+		4D1AA9332189BCC300FAB6FB /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1AA9312189BCC300FAB6FB /* ContactsViewController.swift */; };
+		4D1AA9342189BCC300FAB6FB /* ContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AA9322189BCC300FAB6FB /* ContactsViewController.xib */; };
+		4D1AA9372189BCD100FAB6FB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1AA9352189BCD100FAB6FB /* SettingsViewController.swift */; };
+		4D1AA9382189BCD100FAB6FB /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AA9362189BCD100FAB6FB /* SettingsViewController.xib */; };
+		4D1AA93B2189BCDE00FAB6FB /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1AA9392189BCDE00FAB6FB /* ChatViewController.swift */; };
+		4D1AA93C2189BCDE00FAB6FB /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AA93A2189BCDE00FAB6FB /* ChatViewController.xib */; };
+		4D1AA9412189C84600FAB6FB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AA9432189C84600FAB6FB /* Localizable.strings */; };
+		4D1AA9482189D20F00FAB6FB /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1AA9472189D20F00FAB6FB /* Styles.swift */; };
+		4D1AA94A2189D23300FAB6FB /* ColorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1AA9492189D23300FAB6FB /* ColorStyle.swift */; };
+		4D1AA94D2189D84300FAB6FB /* SpicyRice-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AA94C2189D84300FAB6FB /* SpicyRice-Regular.ttf */; };
+		4D1AA9512192F28500FAB6FB /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1AA94F2192F28500FAB6FB /* TimerViewController.swift */; };
+		4D1AA9522192F28500FAB6FB /* TimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AA9502192F28500FAB6FB /* TimerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D1AA9132189B84B00FAB6FB /* ExampleTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1AA9162189B84B00FAB6FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D1AA9182189B84B00FAB6FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4D1AA91B2189B84B00FAB6FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D1AA91D2189B84D00FAB6FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D1AA9202189B84D00FAB6FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D1AA9222189B84D00FAB6FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D1AA92D2189BC8A00FAB6FB /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		4D1AA92E2189BC8A00FAB6FB /* FavoritesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesViewController.xib; sourceTree = "<group>"; };
+		4D1AA9312189BCC300FAB6FB /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		4D1AA9322189BCC300FAB6FB /* ContactsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactsViewController.xib; sourceTree = "<group>"; };
+		4D1AA9352189BCD100FAB6FB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4D1AA9362189BCD100FAB6FB /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		4D1AA9392189BCDE00FAB6FB /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		4D1AA93A2189BCDE00FAB6FB /* ChatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
+		4D1AA9402189C82E00FAB6FB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4D1AA9422189C84600FAB6FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4D1AA9442189C84700FAB6FB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4D1AA9452189C88D00FAB6FB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4D1AA9472189D20F00FAB6FB /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		4D1AA9492189D23300FAB6FB /* ColorStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorStyle.swift; sourceTree = "<group>"; };
+		4D1AA94C2189D84300FAB6FB /* SpicyRice-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpicyRice-Regular.ttf"; sourceTree = "<group>"; };
+		4D1AA94F2192F28500FAB6FB /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		4D1AA9502192F28500FAB6FB /* TimerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +81,90 @@
 		4D1AA9152189B84B00FAB6FB /* ExampleTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				4D1AA94B2189D81900FAB6FB /* Fonts */,
+				4D1AA9462189D1FC00FAB6FB /* Styles */,
+				4D1AA93D2189BFD400FAB6FB /* ViewControllers */,
 				4D1AA9162189B84B00FAB6FB /* AppDelegate.swift */,
-				4D1AA9182189B84B00FAB6FB /* ViewController.swift */,
-				4D1AA91A2189B84B00FAB6FB /* Main.storyboard */,
 				4D1AA91D2189B84D00FAB6FB /* Assets.xcassets */,
 				4D1AA91F2189B84D00FAB6FB /* LaunchScreen.storyboard */,
 				4D1AA9222189B84D00FAB6FB /* Info.plist */,
+				4D1AA9432189C84600FAB6FB /* Localizable.strings */,
 			);
 			path = ExampleTabBar;
+			sourceTree = "<group>";
+		};
+		4D1AA9282189BC1600FAB6FB /* WorldVC */ = {
+			isa = PBXGroup;
+			children = (
+				4D1AA9392189BCDE00FAB6FB /* ChatViewController.swift */,
+				4D1AA93A2189BCDE00FAB6FB /* ChatViewController.xib */,
+			);
+			path = WorldVC;
+			sourceTree = "<group>";
+		};
+		4D1AA9292189BC2500FAB6FB /* StopwatchVC */ = {
+			isa = PBXGroup;
+			children = (
+				4D1AA9352189BCD100FAB6FB /* SettingsViewController.swift */,
+				4D1AA9362189BCD100FAB6FB /* SettingsViewController.xib */,
+			);
+			path = StopwatchVC;
+			sourceTree = "<group>";
+		};
+		4D1AA92A2189BC2D00FAB6FB /* AlarmVC */ = {
+			isa = PBXGroup;
+			children = (
+				4D1AA9312189BCC300FAB6FB /* ContactsViewController.swift */,
+				4D1AA9322189BCC300FAB6FB /* ContactsViewController.xib */,
+			);
+			path = AlarmVC;
+			sourceTree = "<group>";
+		};
+		4D1AA92C2189BC4300FAB6FB /* BedtimeVC */ = {
+			isa = PBXGroup;
+			children = (
+				4D1AA92D2189BC8A00FAB6FB /* FavoritesViewController.swift */,
+				4D1AA92E2189BC8A00FAB6FB /* FavoritesViewController.xib */,
+			);
+			path = BedtimeVC;
+			sourceTree = "<group>";
+		};
+		4D1AA93D2189BFD400FAB6FB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D1AA94E2192F26500FAB6FB /* Timer */,
+				4D1AA9282189BC1600FAB6FB /* WorldVC */,
+				4D1AA9292189BC2500FAB6FB /* StopwatchVC */,
+				4D1AA92A2189BC2D00FAB6FB /* AlarmVC */,
+				4D1AA92C2189BC4300FAB6FB /* BedtimeVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4D1AA9462189D1FC00FAB6FB /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				4D1AA9472189D20F00FAB6FB /* Styles.swift */,
+				4D1AA9492189D23300FAB6FB /* ColorStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		4D1AA94B2189D81900FAB6FB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4D1AA94C2189D84300FAB6FB /* SpicyRice-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		4D1AA94E2192F26500FAB6FB /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				4D1AA94F2192F28500FAB6FB /* TimerViewController.swift */,
+				4D1AA9502192F28500FAB6FB /* TimerViewController.xib */,
+			);
+			path = Timer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +209,8 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
+				ja,
 			);
 			mainGroup = 4D1AA90A2189B84B00FAB6FB;
 			productRefGroup = 4D1AA9142189B84B00FAB6FB /* Products */;
@@ -122,9 +227,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1AA9522192F28500FAB6FB /* TimerViewController.xib in Resources */,
 				4D1AA9212189B84D00FAB6FB /* LaunchScreen.storyboard in Resources */,
+				4D1AA9342189BCC300FAB6FB /* ContactsViewController.xib in Resources */,
+				4D1AA93C2189BCDE00FAB6FB /* ChatViewController.xib in Resources */,
+				4D1AA94D2189D84300FAB6FB /* SpicyRice-Regular.ttf in Resources */,
+				4D1AA9412189C84600FAB6FB /* Localizable.strings in Resources */,
+				4D1AA9302189BC8A00FAB6FB /* FavoritesViewController.xib in Resources */,
 				4D1AA91E2189B84D00FAB6FB /* Assets.xcassets in Resources */,
-				4D1AA91C2189B84B00FAB6FB /* Main.storyboard in Resources */,
+				4D1AA9382189BCD100FAB6FB /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +246,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D1AA9192189B84B00FAB6FB /* ViewController.swift in Sources */,
+				4D1AA9332189BCC300FAB6FB /* ContactsViewController.swift in Sources */,
+				4D1AA92F2189BC8A00FAB6FB /* FavoritesViewController.swift in Sources */,
+				4D1AA9372189BCD100FAB6FB /* SettingsViewController.swift in Sources */,
+				4D1AA9482189D20F00FAB6FB /* Styles.swift in Sources */,
+				4D1AA9512192F28500FAB6FB /* TimerViewController.swift in Sources */,
+				4D1AA94A2189D23300FAB6FB /* ColorStyle.swift in Sources */,
+				4D1AA93B2189BCDE00FAB6FB /* ChatViewController.swift in Sources */,
 				4D1AA9172189B84B00FAB6FB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,20 +260,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4D1AA91A2189B84B00FAB6FB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D1AA91B2189B84B00FAB6FB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4D1AA91F2189B84D00FAB6FB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4D1AA9202189B84D00FAB6FB /* Base */,
+				4D1AA9402189C82E00FAB6FB /* es */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4D1AA9432189C84600FAB6FB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D1AA9422189C84600FAB6FB /* en */,
+				4D1AA9442189C84700FAB6FB /* es */,
+				4D1AA9452189C88D00FAB6FB /* ja */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -166,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -226,6 +347,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

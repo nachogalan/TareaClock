@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  ExampleTabBar
+
+  Created by IGNACIO GALAN DE PINA on 31/10/18.
+  Copyright © 2018 IGNACIO GALAN DE PINA. All rights reserved.
+*/
+"title_chats" = "会話";
+"title_settings" = "構成";
+"title_favorites" = "お気に入り";
+"title_contacts" = "連絡先";
+

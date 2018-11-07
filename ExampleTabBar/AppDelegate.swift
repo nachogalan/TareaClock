@@ -15,7 +15,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        UITabBar.appearance().tintColor = UIColor.orange
+        if let window = window {
+            
+            Style.customize()
+            
+            let chatsVC = ChatViewController()
+            let settingsVC = SettingsViewController()
+            let contactsVC = ContactsViewController()
+            let favoritesVC = FavoritesViewController()
+            let timerVC = TimerViewController()
+            
+            let tabController = UITabBarController()
+            
+            
+            let chatsNC = UINavigationController(rootViewController: chatsVC)
+            let settingsNC = UINavigationController(rootViewController: settingsVC)
+            let contactsNC = UINavigationController(rootViewController: contactsVC)
+            let favoritesNC = UINavigationController(rootViewController: favoritesVC)
+            let timerNC = UINavigationController(rootViewController: timerVC)
+            tabController.viewControllers = [chatsNC, contactsNC,favoritesNC , settingsNC, timerNC]
+            
+            
+            
+            
+            
+            window.rootViewController = tabController
+            window.makeKeyAndVisible()
+        }
         return true
     }
 
